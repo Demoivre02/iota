@@ -1,0 +1,6 @@
+export * from './CallToAction'
+export * from './ContactUsView'
+export * from './FeedbackView'
+export * from './HeroView'
+export * from './NewsView'
+export * from './VisionView'
