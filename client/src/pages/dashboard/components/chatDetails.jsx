@@ -6,7 +6,7 @@ import ChatHeader from "./chatHeader";
 import { chatsArray } from "../utils/chat";
 import { addMessage , getMessageList } from "./messageList";
 
-const socket =  io("http://localhost:3001") 
+const socket =  io("https://iota-1.onrender.com/") 
 
 
 function ChatDetails ({chatName,deleteFns,roomId}){

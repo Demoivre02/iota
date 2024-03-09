@@ -5,7 +5,7 @@ import { TopNav, SideNav } from './components'
 import { chatsArray } from './utils/chat'
 
 
-const socket = io.connect("http://localhost:3001")
+const socket = io.connect("https://iota-1.onrender.com/")
 
 export function Chat() {
 
