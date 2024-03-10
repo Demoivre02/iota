@@ -11,7 +11,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {  // Use uppercase Server here too
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://iota-amber.vercel.app/",
     methods: ["GET", "POST"],
   },
 });
