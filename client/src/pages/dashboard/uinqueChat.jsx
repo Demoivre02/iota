@@ -8,7 +8,7 @@ import { chatsArray } from './utils/chat';
 import { ChatFooter } from './components/chatFooter';
 import ChatDetails from './components/chatDetails';
 
-const socket = io.connect("https://iota-1.onrender.com/")
+const socket = io.connect("https://iota-2.onrender.com/")
 
 
 export function UniqueChat() {
